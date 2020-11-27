@@ -74,15 +74,15 @@ function validateInputs() {
     }
   } else if (workoutType === "cardio") {
     if (cardioNameInput.value.trim() === "") {
-      isValid = false;
+      isValid = true;
     }
 
     if (durationInput.value.trim() === "") {
-      isValid = false;
+      isValid = true;
     }
 
     if (distanceInput.value.trim() === "") {
-      isValid = false;
+      isValid = true;
     }
   }
 
